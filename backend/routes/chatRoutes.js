@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Groq = require('groq-sdk');
-const Chat = require('../models/Chat');
+const Chat = require('../Models/Chat');
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
